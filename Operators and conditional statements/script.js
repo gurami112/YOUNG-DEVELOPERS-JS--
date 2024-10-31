@@ -60,4 +60,14 @@ console.log(age > 18 || isStudent); //true (ერთი მაინც მა�
 console.log(!isStudent); //false (გადაატრიელბს ჭეშმარიტს)
 
 
-        // პირობითი statments - if,else  
+        // პირობითი statments - if,else 
+        
+let temperature = 30;
+
+if (temperature > 30) {
+    console.log("ცხელა");
+} else if (temperature < 20) {
+    console.log("თბილა");
+} else {
+    console.log("ცივა");
+}

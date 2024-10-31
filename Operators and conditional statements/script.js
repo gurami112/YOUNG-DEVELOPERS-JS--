@@ -43,3 +43,21 @@ console.log(a !== b); //true
 
 
         // ლოგიკური ოპერატორები
+
+// &&: AND(ორივე პირობა უნდა იყოს ჭეშმარიტი)
+
+// ||: OR(ერთი პირობა უნდა იყოს ჭეშმარიტი)
+
+// !: NOT(პირობის შებრუნება)
+
+let age = 20;
+let isStudent = true;
+
+console.log(age > 18 && isStudent); //true (ორივე პირობა ჭეშმარიტია)
+
+console.log(age > 18 || isStudent); //true (ერთი მაინც მართალია)
+
+console.log(!isStudent); //false (გადაატრიელბს ჭეშმარიტს)
+
+
+        // პირობითი statments - if,else  

@@ -76,3 +76,29 @@ for (let i = 0; i < fruits.length; i++){
 // .ბანანი
 // .ატამი
 // .მანგო
+
+
+        // for...of ციკლი
+
+// javaScript-ში ასევე არსებობს სპეციალური for...of ციკლი, რომელიც საშუალებას გვაძლევს მასივის ელემენტებზე  პირდაპირ ვიმუშაოთ ინდექსის მითითების გარეშე.
+
+let animals = ["ლომი", "ძაღლი", "კატა", "ზებრა"];
+
+for (let animal of animals) {
+    console.log(animal);
+}
+
+
+        //Nested loops(ჩანერგილი ციკლები)
+
+let martix =[
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+];
+
+for(let i=0; i< martix.length; i++){
+    for(let j=0; j< martix[i].length; j++){
+        console.log(martix[i][j]);
+    }
+}
